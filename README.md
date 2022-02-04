@@ -1,2 +1,2 @@
-# jsqp-website
-🌐Website for 🔮JS:QP
+# 🔮JS:QP (🌐Official Website)
+
