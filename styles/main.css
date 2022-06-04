@@ -1,0 +1,29 @@
+:root {
+    --colour-1: #a9b3ce;
+    --colour-2: #7cdedc;
+    --main-colour-1: #f92a82;
+    --main-colour-2: #ffb4b4;
+    --background-colour: #ff58a3;
+  
+    --rgb-colour-1: 255, 180, 180;
+    --rgb-colour-2: 255, 121, 121;
+    --rgb-main-colour-1: 255, 88, 163;
+    --rgb-main-colour-2: 255, 0, 119;
+    --rgb-background-colour: 34, 41, 48;
+}
+
+@font-face {
+    font-family: YanoneKaffeesatz;
+    src: url("../fonts/YanoneKaffeesatz/font.ttf");
+}
+
+body {
+    background-color: var(--background-colour);
+}
+
+* {
+    font-family: YanoneKaffeesatz;
+    letter-spacing: 2px;
+
+    text-shadow: 2px 2px black;
+}
