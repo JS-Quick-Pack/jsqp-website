@@ -1,4 +1,6 @@
 logo img {
+    cursor: pointer;
+    
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -6,6 +8,26 @@ logo img {
     margin-top: 20px;
 
     width: 140px;
+    
+    animation: breathing 6s ease-out infinite normal;
+}
+
+@keyframes breathing {
+    0% {
+        transform: scale(0.9);
+    }
+
+    25% {
+        transform: scale(1);
+    }
+
+    60% {
+        transform: scale(0.9);
+    }
+
+    100% {
+        transform: scale(0.9);
+    }
 }
 
 h1 {
