@@ -29,6 +29,12 @@
     margin-bottom: 2vw;
 }
 
+.download_sec h1 i {
+    position: relative;
+    left: -3px;
+    top: 0.3vw;
+}
+
 .download_sec h3 {
     margin: 0;
     font-weight: 900;

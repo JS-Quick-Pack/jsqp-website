@@ -12,6 +12,11 @@
     background-color: rgba(255, 255, 255, 0.3);
 
     justify-content: space-evenly;
+
+    transition: 0.4s;
+}
+.download_sec:hover {
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .what_is_this_sec {
@@ -28,4 +33,72 @@
     background-color: rgba(160, 130, 130, 0.5);
 
     justify-content: space-evenly;
+    
+    transition: 0.4s;
+}
+.what_is_this_sec:hover {
+    background-color: rgba(26, 21, 21, 0.8);
+}
+
+.faster_sec {
+    display: grid;
+
+    padding: 40px;
+    margin-top: 30px;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+
+    border-radius: 20px;
+    background-color: rgba(46, 41, 41, 0.8);
+
+    justify-content: space-evenly;
+
+    transition: 0.4s;
+}
+.faster_sec:hover {
+    background-color: rgba(46, 41, 41, 1);
+}
+
+.ad_free_sec {
+    display: grid;
+
+    padding: 40px;
+    margin-top: 30px;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+
+    border-radius: 20px;
+    background-color: rgba(61, 16, 30, 0.9);
+
+    justify-content: space-evenly;
+
+    transition: 0.4s;
+}
+.ad_free_sec:hover {
+    background-color: rgba(43, 28, 36, 0.4);
+}
+
+.open_source_sec {
+    display: grid;
+
+    padding: 40px;
+    margin-top: 30px;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+
+    border-radius: 20px;
+    background-color: rgba(19, 82, 90, 0.9);
+
+    justify-content: space-evenly;
+
+    transition: 0.4s;
+}
+.open_source_sec:hover {
+    background-color: rgba(7, 34, 37, 0.9);
 }

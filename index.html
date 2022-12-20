@@ -19,23 +19,27 @@
 
         <link href="./styles/main.css" rel="stylesheet">
         <link href="./styles/index.css" rel="stylesheet">
+        <link href="./styles/text.css" rel="stylesheet">
         <link href="./styles/logo.css" rel="stylesheet">
 
         <link href="./styles/sections/.sections.css" rel="stylesheet">
         <link href="./styles/sections/download_sec.css" rel="stylesheet">
         <link href="./styles/sections/what_is_this_sec.css" rel="stylesheet">
+        <link href="./styles/sections/faster_sec.css" rel="stylesheet">
+        <link href="./styles/sections/ad_free_sec.css" rel="stylesheet">
+        <link href="./styles/sections/open_source_sec.css" rel="stylesheet">
     </head>
 
     <body>
         <logo>
-            <img src="./cdn/logos/v2_orignal.png">
+            <a href="."><img src="./cdn/logos/v2_orignal.png"></a>
         </logo>
 
         <div class="download_sec">
             <img src="./cdn/screenshots/app_home_dark.png">
             
             <div class="download_side">
-                <h1>PICK me here!</h1>
+                <h1><i class='bx bxs-downvote'></i> PICK me here!</h1>
                 <h3>
                     Right here idiot!
                     <br>
@@ -57,7 +61,7 @@
                 
                 <a href="https://github.com/JS-Quick-Pack/jsqp-app">
                     <button class="source_dw">
-                        <i class='bx bx-code'></i>
+                        <i class='bx bxl-github'></i>
                         <text>Source Code</text>
                     </button>
                 </a>
@@ -67,10 +71,10 @@
 
 
         <div class="what_is_this_sec">
-            <h1>What is this?</h1>
+            <h1 id="huh_text">HuH?</h1>
 
             <h2 class="info">
-                JS Quick Pack (JS:QP) is a desktop application based on the amazing game Minecraft and also a fantastic concept.
+                JS Quick Pack (JS:QP) is a desktop application based on the amazing game Minecraft and also a fantastic concept. It's also completely open source.
                 The goal and purpose of Quick Pack is to provide Minecraft players with the greatest alternative to downloading texture packs.
                 The concept is simple, players can download texture packs in just 1 click; JSQP does the rest.
             </h2>
@@ -102,6 +106,64 @@
                 </quote>
             </div>
         </div>
+
+
+        <div class="faster_sec">
+            <h1>Faster ⚡</h1>
+
+            <h2 class="info">
+                One big advantage of using JS Quick Pack to download texture packs is that it's much faster and more convenient than using a typical texture pack website.
+                With a website, you have to search for the texture pack you want, download it to your computer, and then manually install it into your Minecraft game.
+                This can be a time-consuming and frustrating process, especially if you're not familiar with how to do it.
+                In contrast, the JS Quick Pack streamlines the process and allows you to easily browse, download, and install texture packs with just a few clicks.
+                This means you can quickly and easily customize your Minecraft game without any hassle.
+                So if you want a faster, easier, and more convenient way to download texture packs, the JS Quick Pack is the way to go. 
+            </h2>
+
+            <img src="https://media2.giphy.com/media/26uf9QPzzlKPvQG5O/giphy.gif">
+        </div>
+
+        <div class="ad_free_sec">
+            <h1>Ad & Popup 🛑 FREE</h1>
+
+            <h2 class="info">
+                Another great benefit of using the JS Quick Pack to download texture packs is that it offers an ad-free and popup-free experience.
+                Unlike many texture pack websites, which are often filled with distracting ads and annoying popups, the JS Quick Pack is clean and straightforward.
+                This means you can focus on finding and downloading the texture packs you want without any interruptions.
+                Plus, because there are no ads or popups, the JS Quick Pack is safer and more secure than many other download options.
+                So not only will you save time and frustration by using the JS Quick Pack, you'll also enjoy a more pleasant and seamless experience. 
+            </h2>
+
+            <img src="https://media.tenor.com/wOrCBroVoDUAAAAC/hyper-anime.gif">
+        </div>
+
+        <div class="open_source_sec">
+            <h1>Open Source 📖</h1>
+
+            <h2 class="info">
+                One of the great things about the JS Quick Pack is that it's fully open source.
+                This means that anyone can view, modify, and contribute to the code that makes up the app.
+                This is a big advantage for a few reasons.
+                First, it means that the app is transparent and accountable, because anyone can see how it works and how it's built.
+                Second, it means that the app is constantly evolving and improving, because anyone can contribute their own ideas and improvements to the code.
+                And third, it means that the app is free to use and distribute, because it's released under an open source license.
+                So if you want to use a download tool that's open, collaborative, and constantly improving, JS Quick Pack is the perfect choice.
+            </h2>
+
+            <img class="img_1" src="https://media4.giphy.com/media/KAq5w47R9rmTuvWOWa/giphy.gif">
+            <img class="img_2" src="./cdn/gifs/jsqp_hug.gif">
+
+            <div class="download_buttons">
+                <a href="https://github.com/JS-Quick-Pack">
+                    <button class="source_dw" style="max-width: 300px;">
+                        <i class='bx bxl-github'></i>
+                        <text>We're Open Source</text>
+                    </button>
+                </a>
+            </div>
+
+        </div>
     </body>
 
+    <script src="./scripts/huh.js"></script>
 </html>
