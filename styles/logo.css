@@ -7,7 +7,8 @@ logo img {
 
     margin-top: 20px;
 
-    width: 120px;
+    width: 9vw;
+    min-width: 100px;
     
     animation: breathing 6s ease-out infinite normal;
 }
