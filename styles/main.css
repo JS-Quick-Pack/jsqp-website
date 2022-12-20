@@ -1,6 +1,7 @@
 :root {
     --colour-1: #a9b3ce;
     --colour-2: #7cdedc;
+    --colour-3: #473f3f;
     --main-colour-1: #f92a82;
     --main-colour-2: #ffb4b4;
     --background-colour: #ff58a3;
@@ -17,6 +18,8 @@
     src: url("../fonts/YanoneKaffeesatz/font.ttf");
 }
 
+
+/* Global stuff */
 body {
     background-color: var(--background-colour);
 }
@@ -26,4 +29,14 @@ body {
     letter-spacing: 2px;
 
     text-shadow: 2px 2px black;
+}
+
+::selection {
+    border-radius: 30px;
+    background: var(--colour-1); /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+    border-radius: 30px;
+    background: var(--colour-1); /* Gecko Browsers */
 }

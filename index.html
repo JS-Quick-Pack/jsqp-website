@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1" /> 
         
         <title>JS Quick Pack</title>
         <link rel="icon" href="./cdn/logos/v2_orignal.png">
@@ -15,8 +15,15 @@
         <meta name="theme-color" content="#ff58a3">
         <meta content="https://jsqp.devgoldy.me/cdn/logos/v1_circle.png" property='og:image'>
 
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
         <link href="./styles/main.css" rel="stylesheet">
         <link href="./styles/index.css" rel="stylesheet">
+        <link href="./styles/logo.css" rel="stylesheet">
+
+        <link href="./styles/sections/.sections.css" rel="stylesheet">
+        <link href="./styles/sections/download_sec.css" rel="stylesheet">
+        <link href="./styles/sections/what_is_this_sec.css" rel="stylesheet">
     </head>
 
     <body>
@@ -24,12 +31,77 @@
             <img src="./cdn/logos/v2_orignal.png">
         </logo>
 
-        <div>
-            <h1>Coming Soon...</h1>
+        <div class="download_sec">
+            <img src="./cdn/screenshots/app_home_dark.png">
+            
+            <div class="download_side">
+                <h1>PICK me here!</h1>
+                <h3>
+                    Right here idiot!
+                    <br>
+                    <i class='bx bx-down-arrow-alt'></i>
+                </h3>
+                
+            </div>
 
+            <div class="download_buttons">
+                <button class="windows_dw">
+                    <i class='bx bxl-windows'></i>
+                    <text>Windows</text>
+                </button>
+    
+                <button class="linux_dw">
+                    <i class='bx bx-code-block'></i>
+                    <text>Linux</text>
+                </button>
+                
+                <a href="https://github.com/JS-Quick-Pack/jsqp-app">
+                    <button class="source_dw">
+                        <i class='bx bx-code'></i>
+                        <text>Source Code</text>
+                    </button>
+                </a>
+            </div>
+            
         </div>
-        
 
+
+        <div class="what_is_this_sec">
+            <h1>What is this?</h1>
+
+            <h2 class="info">
+                JS Quick Pack (JS:QP) is a desktop application based on the amazing game Minecraft and also a fantastic concept.
+                The goal and purpose of Quick Pack is to provide Minecraft players with the greatest alternative to downloading texture packs.
+                The concept is simple, players can download texture packs in just 1 click; JSQP does the rest.
+            </h2>
+
+            <img style="animation-delay: 250ms;" src="./cdn/screenshots/minecraft_1.png">
+
+            <div class="quotes">
+                <quote class="goldy_quote">
+                    <h4>
+                        ❝The days of going to your ageing browser to download a Minecraft texture pack just to be bombarded with ADS and annoying adfly links,
+                        then having to extract it and find your damn Minecraft directory is OVER!❞
+                        <br><br>
+                        <author>Goldy</author>
+                    </h4>
+                </quote>
+
+                <br>
+
+                <quote class="chatgpt_quote" style="animation-delay: 500ms;">
+                    <h4>
+                        ❝If you're a Minecraft player, you know how important it is to have the right texture packs to make your game look just the way you want it to. 
+                        The JS Quick Pack is the best way to download and install texture packs, because it's fast, easy, and reliable. 
+                        With just a few clicks, you can browse and download a wide variety of texture packs, from simple and clean to colorful and complex. 
+                        And once you've found the perfect texture pack, the JS Quick Pack makes it easy to install and apply it to your game. 
+                        So why waste time with other, slower download methods? Use the JS Quick Pack and start enjoying your new, custom-looking Minecraft world today!❞
+                        <br><br>
+                        <author>Open A.I ChatGPT</author>
+                    </h4>
+                </quote>
+            </div>
+        </div>
     </body>
 
 </html>

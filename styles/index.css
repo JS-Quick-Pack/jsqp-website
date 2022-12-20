@@ -1,40 +1,27 @@
-logo img {
-    cursor: pointer;
-    
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
-    margin-top: 20px;
-
-    width: 140px;
-    
-    animation: breathing 6s ease-out infinite normal;
-}
-
-@keyframes breathing {
-    0% {
-        transform: scale(0.9);
-    }
-
-    25% {
-        transform: scale(1);
-    }
-
-    60% {
-        transform: scale(0.9);
-    }
-
-    100% {
-        transform: scale(0.9);
-    }
-}
-
 h1 {
     color: white; 
-    font-size: 60px;
+    font-size: 4vw;
     font-weight: 800;
     text-align: center;
+}
 
-    margin-top: 30px;
+h2 {
+    color: white;
+    font-size: 1.8vw;
+    font-weight: 800;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    font-size: 1.5vw;
+    font-weight: 800;
+    text-align: center;
+}
+
+h4 {
+    color: white;
+    font-size: 1vw;
+    font-weight: 800;
+    text-align: center;
 }

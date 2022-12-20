@@ -1,0 +1,31 @@
+.download_sec {
+    display: grid;
+
+    padding: 20px;
+    margin-top: 30px;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+
+    justify-content: space-evenly;
+}
+
+.what_is_this_sec {
+    display: grid;
+
+    padding: 40px;
+    margin-top: 30px;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+
+    border-radius: 20px;
+    background-color: rgba(160, 130, 130, 0.5);
+
+    justify-content: space-evenly;
+}
