@@ -24,6 +24,18 @@
     box-shadow: 0px 0px 30px -10px black;
 }
 
+.ad_free_sec .info .bubble {
+    background-color: rgba(61, 16, 30, 0.4);
+    animation-duration: 4s;
+    transition: 1.5s;
+}
+
+.ad_free_sec .info .bubble:hover {
+    max-width:330px;
+    animation: none;
+    font-size: 1.6vw;
+}
+
 .ad_free_sec img {
     cursor: pointer;
 
