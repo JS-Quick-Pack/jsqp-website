@@ -30,13 +30,14 @@
         <link href="./styles/sections/open_source_sec.css" rel="stylesheet">
 
         <link href="./styles/utils/float.css" rel="stylesheet">
+        <link href="./styles/utils/cards.css" rel="stylesheet">
 
         <link href="./styles/utils/other/speech_bubbles.css" rel="stylesheet">
     </head>
 
     <body>
         <logo>
-            <a href="."><img src="./cdn/logos/v2_orignal.png"></a>
+            <a href="./index.html"><img src="./cdn/logos/v2_orignal.png"></a>
         </logo>
 
         <div class="download_sec">
@@ -78,12 +79,17 @@
             <h1 id="huh_text">HuH?</h1>
 
             <h2 class="info">
-                JS Quick Pack (JS:QP) is a desktop application based on the amazing game Minecraft and also a fantastic concept. It's also completely open source.
-                The goal and purpose of Quick Pack is to provide Minecraft players with the greatest alternative to downloading texture packs.
-                The concept is simple, players can download texture packs in just 1 click; JSQP does the rest.
+                JS Quick Pack (JS:QP) is a desktop application designed to streamline the customization of Minecraft texture packs.
+                <br><br>
+
+                <div>
+                    <h2 style="color: var(--background-colour);">Our goal is to provide an ad-free, quick, community driven and developed open source application to provide Minecraft players with the greatest alternative to a texture pack sharing platform.</h2>
+                </div>
             </h2>
 
-            <img class="float" style="animation-delay: 250ms;" src="./cdn/screenshots/minecraft_1.png">
+            <!-- Slideshow -->
+            <img class="slideshow_image" src="./cdn/screenshots/minecraft_1.png">
+            <img class="slideshow_image" src="./cdn/screenshots/app_download_pack_1.png">
 
             <div class="quotes">
                 <quote class="goldy_quote float">
@@ -111,13 +117,36 @@
             </div>
         </div>
 
+        <div class="cards_sec">
+            <a href="./pages/open_source.html">
+                <div class="card">
+                    <div class="header_card">
+                        <img src="./cdn/logos/open_source.png">
+                    </div>
+            
+                    <div class="body_card">
+                        <div class="card_content">
+            
+                            <h2 style="color: #c4c5c7;">Open Source</h2>
+                            <h3 style="color: #29b65d">
+                                JS Quick Pack is an open, collaborative tool that is constantly improving due to its open source nature.
+
+                                ────
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+
 
         <div class="faster_sec">
             <h1>Faster ⚡</h1>
 
             <h2 class="info">
                 <div class="bubble float">
-                    Websites require manual installation of texture packs in Minecraft, making them slower.
+                    Other websites require manual installation of texture packs in Minecraft, making them slower.
                 </div>
 
                 <div class="bubble float">
@@ -133,7 +162,7 @@
                 </div>
 
                 <div class="bubble float" style="animation-delay: 250ms;">
-                    So if you want a faster, easier, and more convenient way to download texture packs, the JS Quick Pack is the way to go. 
+                    So if you want a faster, easier, and more convenient way to download texture packs, JS Quick Pack is the way to go. 
                 </div>
             </h2>
 
@@ -167,59 +196,8 @@
 
             <img src="https://media.tenor.com/wOrCBroVoDUAAAAC/hyper-anime.gif">
         </div>
-
-        <div class="open_source_sec">
-            <h1>Open Source 📖</h1>
-
-            <h2 class="info">
-                <div class="bubble float" style="animation-delay: 50ms;">
-                    JS Quick Pack is completely open source.
-                </div>
-
-                <div class="bubble float" style="animation-delay: 200ms;">
-                    Anyone can see how it works and how it's built via source code.
-                </div>
-
-                <div class="bubble float" style="animation-delay: 250ms;">
-                    This makes JS:QP more transparent and accountable than other apps.
-                </div>
-
-                <div class="bubble float" style="animation-delay: 100ms;">
-                    Anyone can contribute their own ideas and improvements to JS:QP.
-                </div>
-
-                <div class="bubble float" style="animation-delay: 150ms;">
-                    Open source allows us to constantly evolve and improve.
-                </div>
-
-                <div class="bubble float" style="animation-delay: 300ms;">
-                    JS:QP is free to use and distribute due to it's open source license.
-                </div>
-
-                <div class="bubble float" style="animation-delay: 350ms;">
-                    JS Quick Pack is an open, collaborative and constantly improving download tool.
-                </div>
-            </h2>
-
-            <img class="img_1" src="https://media4.giphy.com/media/KAq5w47R9rmTuvWOWa/giphy.gif">
-            <img class="img_2" src="./cdn/gifs/jsqp_hug.gif">
-
-            <div class="download_buttons">
-                <a href="https://github.com/JS-Quick-Pack">
-                    <button class="source_dw">
-                        <i class='bx bxl-github'></i>
-                        <text>GitHub</text>
-                    </button>
-                </a>
-
-                <button class="source_dw discord">
-                    <i class='bx bxl-discord-alt'></i>
-                    <text>Discord</text>
-                </button>
-            </div>
-
-        </div>
     </body>
 
     <script src="./scripts/huh.js"></script>
+    <script src="./scripts/images_slideshow.js"></script>
 </html>
