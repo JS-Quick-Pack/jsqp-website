@@ -20,6 +20,7 @@
     transform: scale(1.02, 1.02);
 }
 
+
 .what_is_this_sec {
     display: grid;
 
@@ -42,8 +43,9 @@
     transform: scale(1.02, 1.02);
 }
 
+
 .cards_sec {
-    display: flex;
+    display: grid;
 
     padding: 2vw;
     margin-top: 30px;
@@ -56,9 +58,37 @@
     border-radius: 20px;
     background-color: rgba(35, 35, 35, 0.8);
     
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+
+    animation: bobbing 10s ease-in-out infinite normal;
+    transition: 0.4s;
 }
+.cards_sec:hover {
+    background-color: rgba(35, 35, 35, 0.6);
+}
+
+@keyframes bobbing {
+    0% {
+        max-width: 85%;
+    }
+
+    25% {
+        max-width: 80%;
+    }
+
+    50% {
+        max-width: 85%;
+    }
+
+    75% {
+        max-width: 78%;
+    }
+
+    100% {
+        max-width: 85%;
+    }
+}
+
 
 .faster_sec {
     display: grid;
@@ -82,6 +112,7 @@
     transform: scale(1.02, 1.02);
 }
 
+
 .ad_free_sec {
     display: grid;
 
@@ -104,24 +135,26 @@
     transform: scale(1.02, 1.02);
 }
 
+
 .open_source_sec {
     display: grid;
 
     padding: 2vw;
-    margin-top: 30px;
+    padding-top: 1vw;
+    padding-left: 0;
+    padding-right: 0;
 
+    margin-top: 1vw;
     margin-left: auto;
     margin-right: auto;
-    width: fit-content;
+    
+    width: 100%;
 
     border-radius: 20px;
     background-color: rgba(19, 82, 90, 0.9);
+    background-color: rgba(7, 34, 37, 0.9);
 
     justify-content: space-evenly;
 
     transition: 0.4s;
-}
-.open_source_sec:hover {
-    background-color: rgba(7, 34, 37, 0.9);
-    transform: scale(1.02, 1.02);
 }

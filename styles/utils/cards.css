@@ -8,9 +8,8 @@ BIG thanks to Kaio Almeida for sharing the CSS of these cards. Credit: https://c
     cursor: pointer;
     width: 16vw;
     height: 23vw;
-    display: flex;
+    display: block;
     overflow: hidden;
-    flex-direction: column;
     position: relative;
 
     border-radius: 2vw;
@@ -18,7 +17,7 @@ BIG thanks to Kaio Almeida for sharing the CSS of these cards. Credit: https://c
 }
 
 .card:hover .header_card {
-    margin-top: -20px;
+    margin-top: -1.3vw;
 }
 
 .card:hover .body_card {
@@ -26,7 +25,7 @@ BIG thanks to Kaio Almeida for sharing the CSS of these cards. Credit: https://c
 }
 
 .card:hover img {
-    transform: translatey(-1px) translatex(-3px) scale(1.05);
+    transform: translatey(-0.05vw) translatex(-0.1vw) scale(1.05);
 }
 
 .card h2 {

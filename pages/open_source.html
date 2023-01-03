@@ -16,6 +16,8 @@
 
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
+        <link href="../pages/open_source.css" rel="stylesheet">
+
         <link href="../styles/main.css" rel="stylesheet">
         <link href="../styles/index.css" rel="stylesheet">
         <link href="../styles/text.css" rel="stylesheet">
@@ -42,38 +44,52 @@
         <div class="open_source_sec">
             <h1>Open Source 📖</h1>
 
-            <h2 class="info">
-                <div class="bubble float" style="animation-delay: 50ms;">
-                    JS Quick Pack is completely open source.
-                </div>
+            <h2 style="grid-column: 2; grid-row: 2;">Why make JS:QP Open Source?</h2>
 
-                <div class="bubble float" style="animation-delay: 200ms;">
-                    Anyone can see how it works and how it's built via source code.
-                </div>
+            <h3 class="info" style="grid-row: 3/4; font-size: 1vw;">
+                We believe that open sourcing JS Quick Pack was a good idea for several reasons.
+                Firstly, open source software allows for transparency and collaboration within the community.
+                This means that anyone can view and contribute to the code, leading to a more robust and reliable tool.
+                Additionally, open source software is a tremendous help to texture pack makers because it allows them to access the source code and make custom modifications to fit their specific needs.
+                This level of customization and flexibility is not possible with closed source software.
+                Overall, open sourcing JS Quick Pack benefits both the community and texture pack makers by fostering collaboration and innovation.
+            </h3>
 
-                <div class="bubble float" style="animation-delay: 250ms;">
-                    This makes JS:QP more transparent and accountable than other apps.
-                </div>
+            <h2 style="grid-column: 2; grid-row: 4;">A bit about the inner workings of JS:QP.</h2>
 
-                <div class="bubble float" style="animation-delay: 100ms;">
-                    Anyone can contribute their own ideas and improvements to JS:QP.
-                </div>
+            <h3 class="info" style="grid-row: 5; font-size: 1vw;">
+                JS Quick Pack is built using Python as it's native language for the backend and HTML, CSS, and JavaScript as the frontend.
+                We use our own websocket bridge API to link the JavaScript and Python code together.
+                You do not need to know Python in order to contribute to JS Quick Pack, we will allow contributors to work in vanilla JavaScript.
+                However, if you do so we do recommend making it modular and submitting it to a separate repository within the JS:QP GitHub team.
+                This allows us and you to better organize and maintain the codebase as you won't have to dig into client code.
+                You can just work on your feature as if it was a website and we'll handle the backend implementation.
+                Anyways, JS Quick Pack is a powerful tool that combines the versatility of Python with the accessibility of frontend web technologies like HTML and JavaScript.
+            </h3>
 
-                <div class="bubble float" style="animation-delay: 150ms;">
-                    Open source allows us to constantly evolve and improve.
-                </div>
+            <h2 style="grid-column: 2; grid-row: 6;">Some Contribution Guidelines</h2>
 
-                <div class="bubble float" style="animation-delay: 300ms;">
-                    JS:QP is free to use and distribute due to it's open source license.
-                </div>
-
-                <div class="bubble float" style="animation-delay: 350ms;">
-                    JS Quick Pack is an open, collaborative and constantly improving download tool.
-                </div>
-            </h2>
-
-            <img class="img_1" src="https://media4.giphy.com/media/KAq5w47R9rmTuvWOWa/giphy.gif">
-            <img class="img_2" src="../cdn/gifs/jsqp_hug.gif">
+            <h3 class="info" style="grid-row: 7;">
+                <ol>
+                    <li>All code submissions must be licensed under the same open source license as the project.</li>
+                    <br>
+                    <li>BEFORE you contribution make sure to open an issue or talk to use on Discord beforehand to why you think it's relevant.</li>
+                    <br>
+                    <li>Submitted code should be well-commented!</li>
+                    <br>
+                    <li>All code changes should be tested thoroughly before submission to ensure they do not break existing functionality.</li>
+                    <br>
+                    <li>Submissions should be made through a pull request or separated repository on the JS:QP github team. (READ THE ABOVE SECTION FOR WHY)</li>
+                    <br>
+                    <li>Submissions should include a brief description of the changes made.</li>
+                    <br>
+                    <li>Any submission that does not adhere to these rules may be rejected by us.</li>
+                </ol>
+            </h3>
+            
+            <img class="img_1" src="../cdn/logos/open_source_plain.png">
+            <img class="img_2" src="https://media4.giphy.com/media/KAq5w47R9rmTuvWOWa/giphy.gif">
+            <img class="img_3" src="../cdn/gifs/jsqp_hug.gif">
 
             <div class="download_buttons">
                 <a href="https://github.com/JS-Quick-Pack">
